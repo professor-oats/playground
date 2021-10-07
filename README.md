@@ -1,4 +1,4 @@
-# majo_raytracer
+# playground with majo_raytracer
 
 This is an extension and dumpster of the collab project with my friend on Crete.
 
