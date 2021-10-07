@@ -1,0 +1,24 @@
+2021-09-17
+Blev sugen på att göra någon form av skelett i en cornellbox. Hade sett ganska roligt ut haha.
+
+Kommer också vilja tracea något mörkt klot med någon rökliknande yta i särskild fär som lyses upp bakom solförmörkelse-liknande och som är placerad ovan eller bredvid reflekterande ytor för att få en intressant effekt.
+
+Kommer pussla lite grann på det och kommer ha det som main project.
+
+Sedan kommer jag också att vilja börja tänka på hur en kan bygga upp rotationer eller object i rörelse och möjligen optimera utvecklandes av flertalet bilder som en sedan kan strukturera ihop till en gif, eller varför inte en film.
+
+Kommer också göra likadant med pixelart för att kunna göra schyssta effekter till både logon samt det klot jag jobbar med där.
+
+We will see.
+
+2021-09-19
+Blev klar med andra boken nu i dag så har en riktigt bra raytracear helt enkelt. Ska försöka bygga ihop en hittab_list för flammor typ som ser riktigt bra ut. Skulle vilja ha blå i olika nyanser som då av uppenbarliga skäl ska ha passthrough.
+
+En del av utmaningen blir att placera dem inom en rimlig boundary och sedan ska de löpa utefter u och v som täcker ytan på klot och annat fancy. Behövs nog någonting som poängterar normalen för lågorna så de vet vad som blir upp och så där. Det görs väl genom någon vec3 företrädelsevis.
+
+Vore också fancy att på något sätt få in hue + sat och använda det bredare color scopet i stället för bara RGB.
+
+En till idé jag skulle vilja göra är någon typ av spiralklubba som är på en rosatintat-bakgrund typ med gradient. Skulle också vilja göra något landskap med samma typ av swirls så att allting ser ut som en enda stor campino-värld och sedan ha några blänkande klot som följer landskapet. Vore lite häftigt.
+
+Behöver också få in det där med att kolla mer på hemsida samt kolla på klienten från jobbet. Kommer antagligen behöva använda den för rendering i stället då den här datorn inte kommer att klara så stora grejer.
+

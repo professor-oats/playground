@@ -1,0 +1,25 @@
+2021-09-17
+Har fixat cornellboxen och uppdaterat mainen så att man kan switcha mellan den olika objecten att skapa. Håller på att studera lite mer om vertical field-of-view eller vfov som det heter så att jag förstår hur man fixerar kameran för att ha en god vi över objecten vi skapar.
+
+Detta gör att man också kan animera bilder sedan genom att rotera kamera i stället för objectet och då ge en annan effekt. Ganska coolt ändå.
+
+Sade till i-Tech att jag ska hämta datorn nu i dag. Ska se om martin kan hänga på eller om han kommer att vara upptagen med flytt.
+
+Möjligen behöver jag dumpa den där hos honom. Behöver också tänka på vilken skärm jag ska ta med sedan i helgen. HP-skärmen kommer jag inte använda överhuvudtaget vad det verkar som så den är ett ganska straight forward pick imo.
+
+
+2021-09-24
+Har gjort färdigt bok två så har en komplett raytracer nu. Håller på att gå igenom den en gång till med Martin. Efter att den är färdig ska vi göra comments innan vi går vidare på bok tre. Under tiden har jag satt upp olika mål för mig själv som jag skulle vilja skapa.
+
+Det ena är att få ordning på ett brinnande klot som jag har tänkt på samt att skapa ett is-underlag som den står på och använda lite typer av reflekterande ytor. 
+
+Att göra elden är lite avancerat och att få rätt färgskiftning på det samt bestämma materialet på klotet och få elden att faktiskt omsluta det.
+
+Innan dess vill jag nog skapa en semield som ska innehålla ett gäng random små rectangle lights som man kan slumpa till olika färger inom ett visst spann - kanske åtta stycken olika så en får typ en från varje del av spektrumet eller något.
+
+Behöver då lägga dem inom en boundary box som sedan ska placeras på ett sätt så att den omsluter klotet och så behöver jag fixa hitten på outer_box.
+För att kunna ha ett gäng små rectancle lights som kanske bara har 0.0002 längd och så där kan jag möjligen behöva upscalea beroende på hur små enheter hanteras och hur slutresultatet ska vara.
+
+Det kommer att se ut som någon form av gnistbildning som också framöver kan användas när det kommer till impact av något slag. Att man kan ändra antalet samt lägga på vectorer som styr hur de placerar. Lite avancerat men nice.
+
+Den modell som antagligen används för denna är hittable_list boxes och så behöver de vara shared me diffuse_light.
